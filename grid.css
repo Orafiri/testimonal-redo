@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 30px; 
+    background-color: bisque;
+}
+
+.main{
+    margin: 5px;
+    border: 0.5px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.main1{
+    background-color: rgb(77, 13, 150);
+    grid-column: 1/3;
+    color: white;
+}
+.group{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 120px;
+    padding-left: 2px;
+    gap: 5px;
+}
+
+.image1{
+    border: solid 2px rgb(229, 226, 226);
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    align-self: center;
+   border-radius: 50%;    
+}
+img{
+    border-radius: 50%;
+}
+
+.main2{
+    background: rgb(116, 116, 116);
+    grid-column: 3/4;
+    color: aliceblue;
+}
+.group2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 150px;
+    padding-left: 2px;
+    gap: 5px;
+}
+.image2{
+    border: solid 2px rgb(148, 144, 144);
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.main3{
+    background-color: antiquewhite;
+    grid-column: 1/2;
+    grid-row: 2/3;  
+}
+.group3{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 150px;
+    padding-left: 2px;
+    gap: 10px;
+}
+.image3{
+    border: solid 2px wheat;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.main4{
+    background-color: rgb(4, 4, 17);
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color:azure;
+}
+.group4{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 120px;
+    padding-left: 2px;
+    gap: 5px;
+}
+.image4{
+    border: solid 2px purple;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+}
+.main5{
+    background-color: azure;
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+.group5{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 120px;
+    padding-left: 2px;
+    gap: 5px;
+}
+.image5{
+    border: solid 2px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+}
+p{
+    font-size: 10px;
+    font-weight: 90;
+}
+.image{
+    border: solid 2px transparent;
+    border-radius: 50%;
+    width: 5px;
+    height: 50px;
+}
